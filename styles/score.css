@@ -1,0 +1,165 @@
+/* STLYING THE BODY */
+body{
+    background-color: black;
+    text-align: center;
+}
+/* STYLING THE PARENT DIV */
+div{
+    margin-top: 180px;
+}
+/* STYLING THE SCORE */
+h1{
+    color: #E27D34;
+    text-align: center;
+    font-family: Pricedown;
+    src: url(./pricedow.ttf);
+    font-size: 188px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+span{
+    color: #E27D34;
+    text-align: center;
+    font-family: Pricedown;
+    src: url(./pricedow.ttf);
+    font-size: 188px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+/* STYLING THE PLAY AGAIN AND RETURN TO HOMEPAGE TEXTS */
+p{
+    color: #FFF;
+    text-align: center;
+    font-family: Pricedown;
+    src: url(./pricedow.ttf);
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor:default ;
+}
+p:hover{
+    color: #e2348b;
+}
+a{
+    text-decoration: none;
+}
+/*  */
+/* MEDIA SCREEN QUERIES FOR RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+
+    /* MAIN SCORE DIV */
+    div{
+        margin-top: 8%;
+    }
+    /* STYLING THE BUTTONS */
+   h1{
+    color: #E27D34;
+    text-align: center;
+    font-family: Pricedown;
+    src: url(./pricedow.ttf);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+   span{
+    color: #E27D34;
+    text-align: center;
+    font-family: Pricedown;
+    src: url(./pricedow.ttf);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    p{
+        color: #FFF;
+        text-align: center;
+        font-family: Pricedown;
+        src: url(./pricedow.ttf);
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor:default ;
+    }
+}
+@media screen and (max-width: 600px){
+    /* MAIN SCORE DIV */
+    div{
+        margin-top: 8%;
+    }
+    /* STYLING THE BUTTONS */
+   h1{
+    color: #E27D34;
+    text-align: center;
+    font-family: Pricedown;
+    src: url(./pricedow.ttf);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+   span{
+    color: #E27D34;
+    text-align: center;
+    font-family: Pricedown;
+    src: url(./pricedow.ttf);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    p{
+        color: #FFF;
+        text-align: center;
+        font-family: Pricedown;
+        src: url(./pricedow.ttf);
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor:default ;
+    }
+}
+@media screen and (width: 844px){
+    /* MAIN SCORE DIV */
+    div{
+        margin-top: 13%;
+    }
+    /* STYLING THE BUTTONS */
+   h1{
+    color: #E27D34;
+    text-align: center;
+    font-family: Pricedown;
+    src: url(./pricedow.ttf);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   }
+   span{
+    color: #E27D34;
+    text-align: center;
+    font-family: Pricedown;
+    src: url(./pricedow.ttf);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    p{
+        color: #FFF;
+        text-align: center;
+        font-family: Pricedown;
+        src: url(./pricedow.ttf);
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor:default ;
+    }
+}

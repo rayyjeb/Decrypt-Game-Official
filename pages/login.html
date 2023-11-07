@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt | Homescreen </title>
+     <!-- FAVICON -->
+     <link rel="icon" type="image/x-icon" href="../Assets/Favicon/Favicon.png">
+    <!-- LINK TO EXTERNAL CSS FILE -->
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <!-- BACKGROUND VIDEO ELEMENT -->
+    <video id="bgVideo" autoplay loop playsinline muted>
+        <source src="../Assets/LoginPageAssets/LoginPagebg.mp4" type="video/mp4">
+    </video>
+    <!--MAIN LOGIN CONTAINER -->
+    <div class="main__login">
+        <!-- LOGIN CONTAINER FOR ALIGNMENT -->
+        <div class="login__container">
+            <div class="login__contents">
+                <h1> Welcome Aboard</h1>
+                <form autocomplete="off" >
+                    <input type="text" id="login-name" name="username" placeholder="Enter Your Name" required>
+                    <br>
+                    <button type="submit" id="proceedbtn"> Proceed </button>
+                </form>
+            </div>
+            <!-- ADDITIONAL INFO  -->
+            <div class="login__text">
+                <p> This video game is a work of fiction. Any resemblance to actual events or any real persons, living or dead, is purely coincidental. Further, no organization or government agency has approved, endorsed, or authorized the use of their names or logos product itself.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- LINK TO EXTERNAL JAVASCRIPT FILE -->
+<script src="../src/login.js"></script>
+</html>

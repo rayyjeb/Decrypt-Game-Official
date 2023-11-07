@@ -1,0 +1,49 @@
+/* STYLING FOR BACKGROUND VIDEO */
+video#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: -100;    
+    background-size: cover;
+    }
+    /* RESPONSIVE MEDIA QUERIES */
+    @media screen and (max-width: 768px) {
+        video#bgVideo {
+            object-fit: contain;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    /* MEDIA QUERIES FOR LARGE MOBILE PHONES */
+@media screen and (max-width: 600px){
+    video#bgVideo {
+        object-fit: contain;
+        width: 120%;
+        height: auto;
+        top: 0;
+        left: -50px;  
+}
+}
+@media screen and (max-width: 850px){
+    video#bgVideo {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+        top: -60px;
+        left: 0;  
+}
+}
+@media screen and (max-width: 600px){
+    video#bgVideo {
+        object-fit: cover;
+        width: 125%;
+        height: 320px;
+        top: 0px;
+        left: -53px;  
+}
+}

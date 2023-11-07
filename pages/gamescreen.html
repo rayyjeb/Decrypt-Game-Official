@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt | HomePage</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="../Assets/Favicon/Favicon.png">
+    <!-- LINK TO EXTERNAL CSS FILE -->
+    <link rel="stylesheet" href="../styles/gamescreen.css">
+</head>
+<body>
+    <!-- BACKGROUND VIDEO -->
+    <video id="bgVideo" autoplay loop plays-inline muted>
+        <source src="../Assets/HomePageAssets/HomePageBgVideo.mp4" type="video/mp4" >
+    </video> 
+    <!-- TOP LOGGED-IN CREDENTIALS -->
+    <nav>
+        <div class="nav__elements">
+        <img src="../Assets/HomePageAssets/HomePageIcon.png" alt="Game Logo">
+        <span id="account_name" class="nav__account-name"></span>
+        </div>
+    </nav> 
+    <!-- GAME BUTTONS-HOMESCREEN -->
+<div class="parent__game--buttons">
+    <div class="game--buttons">
+        <a href="../pages/newgame.html"><button id="newgameBtn"> New Game </button></a>
+       <a href="../pages/gamevideo.html"> <button id="loadgameBtn"> Load Game </button></a>
+        <a href="https://rayyjeb.github.io/Portfolio/"><button id="creditsBtn"> Credits </button></a>
+       <a href="../index.html"> <button id="quitBtn"> Quit Game </button></a>
+</div>
+<!-- LINK TO EXTERNAL JAVASCRIPT FILE -->
+<script src="../src/gamescreen.js"></script>
+</body>
+</html>

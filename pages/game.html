@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt | Instruction</title>
+     <!-- FAVICON -->
+     <link rel="icon" type="image/x-icon" href="../Assets/Favicon/Favicon.png">
+    <!-- LINK TO EXTERNAL CSS -->
+    <link rel="stylesheet" href="../styles/game.css">
+</head>
+<body>
+    <!-- AUDIO WHEN CLICKING PROCEED BUTTON -->
+    <audio src="../Assets/GamePageAssets/GamePageBtnAudio.mp3" id="errorAudio" preload="auto"></audio>
+    <a href="../pages/game2.html" id="Btn"><button>
+        Proceed
+    </button></a>
+<!-- INBUILT JS -->
+<script>
+    // MAKING THE AUDIO FUNCTIONAL WHEN CLICKED
+    let Btn = document.getElementById('Btn');
+    let errorAudio = document.getElementById('errorAudio')
+    Btn.addEventListener("click", ()=>{
+    errorAudio.play();
+    })
+    // IMPORTING BACKGROUND AUDIO
+document.addEventListener("DOMContentLoaded", function () {
+    let bgAudio = new Audio("../Assets/GamePageAssets/GamePageBgAudio.mp3");
+    bgAudio.play();
+    bgAudio.loop = true;
+    bgAudio.volume = 1;
+});
+</script>  
+</body>
+</html>

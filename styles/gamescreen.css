@@ -1,0 +1,229 @@
+/* STYLING FOR BACKGROUND VIDEO */
+video#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    z-index: -100;    
+    background-size: cover;
+    }
+   /* STYLING FOR LOGGED-IN CREDENTIALS */
+    nav{
+        color: white;
+    }
+    .nav__elements{
+        display: flex;
+        align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: large;
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+    width: 5%;
+    }
+    nav img{
+        width: 20px
+    }
+    /* STYLING FOR GAMEBUTTONS-HOMESCREEN */
+    .game--buttons{
+        flex-direction: column;
+        display: flex;
+        margin-top: 23%;
+        margin-left:3%;
+    }
+    button{
+        width: 10%;
+        padding: 10px;
+        margin-bottom: 1%;
+        text-align: left;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-family: Hacked;
+        font-size: 140%;
+        transition: 0.5s;
+    }
+    button:focus{
+        outline: none;
+    }
+    button:hover{
+        background-color: #0100FD;
+    }
+
+/*  */
+/* MEDIA SCREEN RESPONSIVE STYLING */
+@media screen and (max-width: 768px) {
+    /* BG VIDEO STYLING */
+    video#bgVideo {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+    /* STYLING FOR LOGGED IN CREDENTIALS */
+    nav{
+        color: white;
+    }
+    .nav__elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: small;
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+    width: 5%;
+    }
+    nav img{
+        width: 15px
+    }
+    /* STYLING FOR GAMEBUTTONS-HOMESCREEN */
+    .game--buttons{
+        flex-direction: column;
+        display: flex;
+        margin-top: 10%;
+        margin-left:3%;
+    }
+    button{
+        width: 20%;
+        padding: 10px;
+        /* margin-bottom: 1%; */
+        text-align: left;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-family: Hacked;
+        font-size: 100%;
+        transition: 0.5s;
+    }
+    button:focus{
+        outline: none;
+    }
+    button:hover{
+        background-color: #0100FD;
+    }
+
+}
+/* MEDIA QUERIES FOR LARGE MOBILE PHONES */
+@media screen and (max-width: 600px){
+    video#bgVideo {
+        object-fit: cover;
+        width: 125%;
+        height: 320px;
+        top: 0px;
+        left: -13px;  
+}
+ /* STYLING FOR LOGGED IN CREDENTIALS */
+ nav{
+    color: white;
+}
+.nav__elements{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-top: 4%;
+margin-left: 3%;
+font-size: 12px;
+font-family: Hacked;
+src: url(https://hackedfont.com/HACKED.ttf);
+width: 5%;
+}
+nav img{
+    width:12px
+}
+/* STYLING FOR GAMEBUTTONS-HOMESCREEN */
+.game--buttons{
+    flex-direction: column;
+    display: flex;
+    margin-top: 10%;
+    margin-left:3%;
+}
+button{
+    width: 20%;
+    padding: 10px;
+    /* margin-bottom: 1%; */
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Hacked;
+    font-size: 80%;
+    transition: 0.5s;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    background-color: #0100FD;
+}
+
+}
+/* FOR COMMON MOBILE PHONES  */
+@media screen and (max-width: 850px){
+    video#bgVideo {
+        object-fit: contain;
+        width: 120%;
+        height: auto;
+        top: 0;
+        left: -50px;  
+}
+ /* STYLING FOR LOGGED IN CREDENTIALS */
+ nav{
+    color: white;
+}
+.nav__elements{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-top: 4%;
+margin-left: 4%;
+font-size: 15px;
+font-family: Hacked;
+src: url(https://hackedfont.com/HACKED.ttf);
+width: 5%;
+}
+nav img{
+    width:8px;
+    padding-right: 21%;
+}
+/* STYLING FOR GAMEBUTTONS-HOMESCREEN */
+.game--buttons{
+    flex-direction: column;
+    display: flex;
+    margin-top: 10%;
+    margin-left:3%;
+}
+button{
+    width: 30%;
+    padding: 10px;
+    /* margin-bottom: 1%; */
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+    font-size: 100%;
+    transition: 0.5s;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    background-color: #0100FD;
+}
+
+}
+@media screen and (max-width: 600px){
+    video#bgVideo {
+        object-fit: cover;
+        width: 125%;
+        height: 320px;
+        top: 0px;
+        left: -53px;  
+}
+}

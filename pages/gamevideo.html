@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt | Decrpyt the Encrypted</title>
+     <!-- FAVICON -->
+     <link rel="icon" type="image/x-icon" href="../Assets/Favicon/Favicon.png">
+    <!-- LINK TO EXTERNAL CSS FILE -->
+    <link rel="stylesheet" href="../styles/gamevideo.css">
+</head>
+<body>
+    <!-- BACKGROUND VIDEO  -->
+    <video id="bgVideo" autoplay plays-inline >
+        <source src="../Assets/GameVideoPageAssets/GamePageBgVideo.mp4" type="video/mp4" >
+    </video>
+      <!--INBUILT JS FILE  -->
+    <script>
+        // FUNCTIONS TO SKIP THE VIDEO
+        const video = document.getElementById("bgVideo");
+        video.onended = function() {
+            window.location.href = "../pages/game.html";
+        };
+        document.addEventListener("click", function(){
+            window.location.href="../pages/game.html"
+        })
+    </script>  
+</body>
+</html>

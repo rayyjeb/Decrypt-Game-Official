@@ -1,0 +1,67 @@
+/* BACKGROUND IMAGE STYLING */
+body{
+    background-image: url("../Assets/GamePageAssets/GamePageBG.png") ;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* PROCEED BUTTON STYLING */
+button{
+    margin-left: 70.8%;
+    margin-top: 25%;
+    font-size: 12px;
+    padding: 6px;
+}
+/* RESPONSIVE MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    /* ADJUSTING THE BG */
+    body{
+        background-position-y: -30px;
+    }
+    button{
+        margin-left: 69.5%;
+        margin-top:20%;
+        font-size: 8px;
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        background-position-y: 0.25px;
+        background-position-x: -50px;
+        background-size: 120%;
+    }
+    button{
+        margin-left: 71%;
+        margin-top:28%;
+        font-size: 6px;
+        padding: 2px;
+    }
+}
+@media screen and (width: 844px){
+    body{
+        background-position-y: -10.5px;
+        background-position-x: 0px;
+        /* background-size: 110%; */
+    }
+    button{
+        margin-left: 71%;
+        margin-top:23%;
+        font-size: 6px;
+        padding: 3px;
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        background-position-y: 0%;
+        background-size: 135%;
+        background-color: #496EA3;
+    }
+    button{
+        margin-left: 83%;
+        margin-top:32%;
+        font-size: 6px;
+        padding: 2px;
+    }
+}
