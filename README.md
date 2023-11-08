@@ -13,6 +13,7 @@ Since 2013, a disturbing truth has come to light - our most sensitive data is st
 **Controls**
 Keyboard and Mouse: Use the Enter Key or Mouse to submit a response
 Interaction: Use the mouse to interact with objects and answer security questions.
+I hereby attach a complete explained video of the gameplay https://drive.google.com/drive/folders/129F4hqkzSP6WmJHXzkGxzHY13ABMGXGI?usp=sharing
 
 **Challenges**
 - **Puzzle-Solving:** Sharpen your problem-solving skills as you decrypt security questions.
@@ -37,7 +38,7 @@ To play DECRYPT, follow these steps:
 1. Clone the repository to your local machine.
 2. Some Devices the font may not be supported, so it is recommended to download the fonts from the assets folder.
 3. The game can also be accessed through the netlify link given to the side of the Repository.
-4. I hereby attach a compressed zip file of my game. So that it makes the gameplay faster.
+4. I hereby attach a compressed zip file of my game. So that it makes the gameplay faster. https://drive.google.com/drive/folders/129F4hqkzSP6WmJHXzkGxzHY13ABMGXGI?usp=sharing
 
 ## Disclaimer
 
