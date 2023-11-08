@@ -1,4 +1,6 @@
 ![Web-Showcase-Project-Presentation](https://github.com/rayyjeb/Decrypt-Game-Official/assets/142793649/7429e87f-7d67-4660-956e-39372e4b0490)
+## DECRYPT | DECRYPT THE ENCRYPTED
+
 ## Introduction
 
 Decrypt is an immersive and exciting story-driven game that leads players through a thrilling journey to remove their personal data from a powerful and intrusive ctOS server. In a world where data is king and privacy is a luxury, you must help the protagonist of the game navigate a series of challenging security questions to erase their digital footprint from the server.
