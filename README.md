@@ -23,7 +23,6 @@ Interaction: Use the mouse to interact with objects and answer security question
 
 - **Infiltrate the ctOS Server:** Your mission is to help the protagonist successfully infiltrate the highly secure ctOS server.
 - **Bypass Security Questions:** The ctOS server is protected by a series of complex security questions. Decode these questions and provide the correct answers to progress.
-- **Erase Personal Data:** Reach the core of the server and delete all personal data to complete the game's objective.
 
 ### Key Features
 
