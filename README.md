@@ -1,4 +1,4 @@
-![Web-Showcase-Project-Presentation](https://github.com/rayyjeb/Decrypt-Game-Official/assets/142793649/7429e87f-7d67-4660-956e-39372e4b0490)
+![responsive](https://github.com/rayyjeb/Decrypt-Game-Official/assets/142793649/941b900e-2da0-4dd1-b4ba-77f8a0fc877e)
 ## DECRYPT | DECRYPT THE ENCRYPTED
 
 ## Introduction
